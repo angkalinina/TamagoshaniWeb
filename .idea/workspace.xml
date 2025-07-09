@@ -10,6 +10,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -29,9 +39,16 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "vcs.Perforce",
+    "ts.external.directory.path": "C:\\Users\\angel\\PycharmProjects\\tamagoshani-webapp\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\PycharmProjects\tamagoshani-webapp\hooks" />
+      <recent name="C:\Users\angel\PycharmProjects\tamagoshani-webapp" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752061920044</updated>
       <workItem from="1752061921169" duration="1087000" />
-      <workItem from="1752064869095" duration="20000" />
+      <workItem from="1752064869095" duration="846000" />
     </task>
     <servers />
   </component>
