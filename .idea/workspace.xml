@@ -31,6 +31,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.useTamagoshani.ts.executor": "Run",
+    "Node.js.vite.config.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/angel/PycharmProjects/tamagoshani-webapp",
     "node.js.detected.package.eslint": "true",
@@ -38,6 +40,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "vcs.Perforce",
     "ts.external.directory.path": "C:\\Users\\angel\\PycharmProjects\\tamagoshani-webapp\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -65,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752061920044</updated>
       <workItem from="1752061921169" duration="1087000" />
-      <workItem from="1752064869095" duration="846000" />
+      <workItem from="1752064869095" duration="2139000" />
     </task>
     <servers />
   </component>

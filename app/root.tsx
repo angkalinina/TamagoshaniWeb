@@ -1,3 +1,4 @@
+import React from "react";
 import {
   isRouteErrorResponse,
   Links,
@@ -5,12 +6,18 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "react-router";
-
-import type { Route } from "./+types/root";
+} from "react-router-dom";
+import type { ReactNode } from "react";
 import "./app.css";
 
-export const links: Route.LinksFunction = () => [
+// Тип для links-функции
+type LinksFunction = () => Array<{
+  rel: string;
+  href: string;
+  crossOrigin?: string;
+}>;
+
+export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
@@ -23,7 +30,7 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
@@ -45,7 +52,12 @@ export default function App() {
   return <Outlet />;
 }
 
-export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
+// Тип для ErrorBoundary
+interface ErrorBoundaryProps {
+  error: unknown;
+}
+
+export function ErrorBoundary({ error }: ErrorBoundaryProps) {
   let message = "Oops!";
   let details = "An unexpected error occurred.";
   let stack: string | undefined;
@@ -56,7 +68,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
       error.status === 404
         ? "The requested page could not be found."
         : error.statusText || details;
-  } else if (import.meta.env.DEV && error && error instanceof Error) {
+  } else if (import.meta.env.DEV && error instanceof Error) {
     details = error.message;
     stack = error.stack;
   }
