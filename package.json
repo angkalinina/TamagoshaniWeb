@@ -3,14 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
     "dev": "vite",
-  "start": "react-router serve ./dist --port $PORT",
+    "build": "vite build",
+    "start": "node server.js",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@react-router/node": "^7.5.3",
-    "@react-router/serve": "^7.5.3",
+    "express": "^4.19.2",
     "isbot": "^5.1.27",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
