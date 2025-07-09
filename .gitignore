@@ -1,6 +1,30 @@
-.DS_Store
-/node_modules/
-
+# Env
+# IDEs
+# Node.js
+# OS
+# Output
 # React Router
+# System
+# Vite
+*.swo
+*.swp
+.DS_Store
+.env
+.env.*.local
+.env.local
+.idea/
+.temp/
+.vite/
+.vitepress/
+.vscode/
 /.react-router/
 /build/
+/node_modules/
+Thumbs.db
+build/
+dist/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
