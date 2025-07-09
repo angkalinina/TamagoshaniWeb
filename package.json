@@ -2,12 +2,12 @@
   "name": "tamagoshani-webapp",
   "private": true,
   "type": "module",
-"scripts": {
-  "build": "vite build",
-  "dev": "vite",
-  "start": "vite preview --port $PORT",
-  "typecheck": "tsc"
-},
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite preview --port $PORT",
+    "typecheck": "tsc"
+  },
   "dependencies": {
     "@react-router/node": "^7.5.3",
     "@react-router/serve": "^7.5.3",
@@ -19,11 +19,13 @@
   },
   "devDependencies": {
     "@react-router/dev": "^7.5.3",
+    "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "^4.1.4",
     "@types/node": "^20",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.21",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",

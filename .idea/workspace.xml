@@ -14,11 +14,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -30,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.useTamagoshani.ts.executor": "Run",
     "Node.js.vite.config.ts.executor": "Run",
@@ -68,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752061920044</updated>
       <workItem from="1752061921169" duration="1087000" />
-      <workItem from="1752064869095" duration="2139000" />
+      <workItem from="1752064869095" duration="3323000" />
     </task>
     <servers />
   </component>
